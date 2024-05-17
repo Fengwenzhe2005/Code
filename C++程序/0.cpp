@@ -11,6 +11,7 @@ typedef long long LL;
 void dtob(int n){
 	if(n) {
 		print(n>>1);
+		int a;
 		cout<<(n&1)?1:0;	
 	}
 }
